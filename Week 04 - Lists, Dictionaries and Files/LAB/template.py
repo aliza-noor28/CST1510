@@ -34,11 +34,11 @@ def print_report(label, value, limit, difference, percent, status):
     '''Print a full report using label, value, limit, difference, percent and status'''
     print("=" * 35)
     print(f"RECORD - {label}")
-    print(f"Rows loaded   : {value:>10.2f}")
-    print(f"Rows expected : {limit:>10.2f}")
-    print(f"Difference    : {difference:>10.2f}")
-    print(f"Percent       : {percent:>10.2f}%")
-    print(f"Status        : {status:>10}")
+    print(f"Value       : {value:>10.2f}")
+    print(f"Limit       : {limit:>10.2f}")
+    print(f"Difference  : {difference:>10.2f}")
+    print(f"Percent     : {percent:>10.2f}%")
+    print(f"Status      : {status:>10}")
     print("=" * 35)
 
 
