@@ -1,0 +1,6 @@
+dataset_name,rows_loaded,row_expected,percent,status
+survey_2022,1050,1200,87.5,OK
+survey_2023,1290,1200,107.5,OVER LIMIT
+survey_2024,1064,1200,88.67,OK
+survey_2025,1230,1200,102.5,OVER LIMIT
+survey_2026,1187,1200,98.92,WARNING
